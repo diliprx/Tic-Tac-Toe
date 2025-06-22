@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="shortcut icon" href=" https://img.icons8.com/?size=100&id=61912&format=png&color=000000" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h2>Tic Tac Toe</h2>
+    <div class="main">
+        <div class="board" id="board">
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+        </div>
+    </div>
+    <h2 id="status">Player X's Turn</h2>
+    <div style="text-align:center; margin-top: 10px;">
+        <button onclick="resetGame()">Reset</button>
+    </div>
+
+
+    <audio id="moveSound" src="https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/castle.mp3"></audio>
+    <audio id="winSound" src="assets/victorymale-version-230553.mp3"></audio>
+    <audio id="drawSound" src="assets/brass-fail-8-b-207131.mp3"></audio>
+
+</body>
+<script src="script.js"></script>
+
+</html>
