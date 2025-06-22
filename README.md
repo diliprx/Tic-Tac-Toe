@@ -1,4 +1,9 @@
 # Tic-Tac-Toe
+
+ 🎮 Play Now Buddies
+
+https://diliprx.github.io/Tic-Tac-Toe/
+
 🔧 Features ✅ 3x3 game board using CSS Grid
 
 ✅ Player turn management (X and O)  
@@ -55,4 +60,16 @@ image
 
 📁 File Structure
 
-tic-tac-toe/ │    ├── index.html # Main game layout |   ├── style.css # Styling for the board and UI |   └── script.js # Game logic (turns, winner check, restart)
+  tic-tac-toe/
+  │    
+  |
+  |-- index.html # Main game layout 
+  |
+  |
+  |-- style.css # Styling for the board and UI 
+  |
+  |
+  |-- assets
+  |
+  |   
+  └--script.js # Game logic (turns, winner check, restart)
